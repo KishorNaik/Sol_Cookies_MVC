@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Index1";
+}
+@model Sol_Demo.Models.CookiesModel
+
+<h1>Index1</h1>
+
+<div>
+    <h2>@Model.Id</h2>
+    <h2>@Model.Indentifier</h2>
+    <h2>@Model.Date</h2>
+</div>
+
+<a class="btn btn-danger" asp-controller="CookiesDemo" asp-action="Index">Index</a>
